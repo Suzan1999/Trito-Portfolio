@@ -1,0 +1,46 @@
+/* Max Width 767px Down Form */
+@media only screen and (max-width: 1199px){
+    .trito-about .banner-bottom{
+        width: 90%;
+    }
+    .trito-blog .blog-content .blog__item div:nth-child(3){
+        margin-top: 20px;
+    }
+    .trito-blog .blog-content .blog__item .item__list .item__img img{
+        border-radius: 35%;
+    }
+}
+/* Trito Block Ends Form Here */
+/* Max Width 767px Down Form */
+@media only screen and (max-width: 991px){
+    .trito-about .banner-bottom{
+        width: 85%;
+    }
+    .trito-contact .contact__content .contact__form{
+        margin-top: 40px;
+    }
+    .trito-counter .counter__content div:nth-child(3){
+        margin-top: 40px;
+    }
+}
+/* Trito Block Ends Form Here */
+/* Max Width 767px Down Form */
+@media only screen and (max-width: 767px){
+    .trito-about .banner-bottom{
+        width: 83%;
+    }
+    .trito-blog .blog-content .blog__item div:nth-child(2){
+        margin-top: 20px;
+    }
+    .trito-blog .blog-content .blog__heading .heading__title{
+        text-align: center;
+        font-size: 32px;
+    }
+    .trito-blog .blog-content .blog__heading .heading__title br{
+        display: none;
+    }
+    .trito-counter .counter__content div:nth-child(2){
+        margin-top: 40px;
+    }
+}
+/* Trito Block Ends Form Here */

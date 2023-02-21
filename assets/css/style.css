@@ -1,0 +1,702 @@
+.header{
+    border-bottom: 1px solid black;
+}
+.header .navbar .navbar__button a{
+    display: inline-block;
+    /* font-family: ;
+    font-size: ; */
+    background-color: gray;
+    padding: 12px 26px;
+    text-decoration: none;
+    color: white;
+}
+.header .navbar .navbar__button a:hover{
+    background-color: white;
+    color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 20px;
+    padding: 8px 24px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: white;
+    background-color: #717171;
+}
+.header .navbar .navbar-brand img{
+     max-width: 100%;
+}
+
+
+/* .container{
+    width: ;
+} */
+
+
+/* Start Trito About Section */
+.trito-about{
+    background-image: url(../images/about-img.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.trito-about .about__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trito-about .about__content .about__heading{
+    position: absolute;
+    top: 200px;
+}
+.trito-about .about__content .about__heading .heading__top-sub-title{
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: #24315E;
+}
+.trito-about .about__content .about__heading .heading__title{
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    color: #24315E;
+    padding: 3px 0 5px;
+}
+.trito-about .about__content .about__heading .heading__bottom-sub-title{
+    font-family:'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: #24315E;
+}
+.trito-about .about__content .about__heading .heading__button .button__style a{
+    display: inline-block;
+    font-family:'Space Grotesk', sans-serif;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 12px 28px;
+    background-color: white;
+    border: 2px solid black;
+}
+.trito-about .about__content .about__heading .heading__button .button__style a:hover{
+    background-color:#24315E;
+    color: white;
+}
+.trito-about .about__content .about__heading .heading__button a{
+    display: inline-block;
+    font-family:'Space Grotesk', sans-serif;
+    color: #24315E;
+    font-weight: 900;
+}
+.trito-about .about__content .about__img{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+}
+.trito-about .about__content .about__img img{
+    width: 90%;
+
+}
+.trito-about .banner-bottom{
+    position: absolute;
+    bottom: 30px;
+    width: 95%;
+    z-index: 2;
+}
+.trito-about .banner-bottom .social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trito-about .banner-bottom .social .description{
+    color: #24315E;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+.trito-about .banner-bottom .social .social__link .link__list li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.trito-about .banner-bottom .social .social__link .link__list li a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+}
+/* End Trito About Section */
+/* Start Trito Partner Section */
+.trito-partner{
+    background-color: #24315E;
+    padding: 70px 0;
+}
+.trito-partner .partner__content .partner__title{
+    font-family: 'space grotesk', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.trito-partner .partner__content .partner__title:after{
+    position: absolute;
+    content: '';
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    top: 15px;
+    left: 370px;
+}
+.trito-partner .partner__content .partner__title:before{
+    position: absolute;
+    content: '';
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    top: 15px;
+    right: 370px;
+}
+.trito-partner .partner__content .partner__img .img__list{
+    float: left;
+    width: 25%;
+    padding-top: 20px;
+}
+.trito-partner .partner__content .partner__img .img__list img{
+    width: 100%;
+}
+/* End Trito Partner Section */
+/* Start Trito Features Section */
+.trito-features{
+    padding: 100px 0;
+}
+.trito-features .features__content .features__item{
+    float: left;
+    width: 33.3%;
+    padding: 0 50px;
+    position: relative;
+    border-right: 1px solid black;
+}
+.trito-features .features__content div:nth-child(3){
+    border: none;
+}
+
+.trito-features .features__content .features__item .item__details{
+    display: flex;
+    align-items: center;
+}
+.trito-features .features__content .features__item .item__details .icon{
+    margin-right: 20px;
+}
+.trito-features .features__content .features__item .item__details .icon svg{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.trito-features .features__content .features__item .item__details .item__title{
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'space grotesk', sans-serif;
+    color: #24315E;
+    padding-bottom: 15px;
+}
+.trito-features .features__content .features__item .features__description{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+/* End Trito Features Section */
+/* Trito Skill Starts Form Here  */
+.trito-skill{
+   padding: 20px 0;
+}
+
+.trito-skill .skill__content .skill__details{
+    float: left; 
+    width: 40%;
+    padding-right: 65px;
+    padding-top: 30px;
+
+}
+.trito-skill .skill__content .skill__details .skill__sub-title{
+    font-family: 'space grotesk', sans-serif;
+    font-size: 20px;
+    color: tomato;
+    position: relative;
+    padding-left: 30px;
+    font-weight: 300px;
+}
+.trito-skill .skill__content .skill__details .skill__sub-title:after{
+    position: absolute;
+    content: '';
+    top: 15px;
+    right: 100px;
+    width: 150px;
+    height: 1.2px ;
+    background-color: tomato;
+
+}
+.trito-skill .skill__content .skill__details .skill__sub-title:before{
+    position: absolute;
+    content: '';
+    top: 15px;
+    left: 0;
+    width: 20px;
+    height: 1.2px ;
+    background-color: tomato;
+}
+.trito-skill .skill__content .skill__details .skill__title{
+    font-family: 'space grotesk', sans-serif;
+    font-size: 55px;
+    padding: 15px 0;
+}
+.trito-skill .skill__content .skill__details .skill__desc{
+    font-family: 'space grotesk', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+.trito-skill .skill__content .skill__list{
+    float: left; 
+    width: 60%;
+    background-image:url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 90px;
+}
+.trito-skill .skill__content .skill__list .list__type li{
+    display: inline-block;
+    padding: 14px 30px;
+    border: 1px solid black;
+    margin: 12px 8px;
+    background-color: white;
+}
+.trito-skill .skill__content .skill__list .list__type li span{
+    font-family: 'space grotesk', sans-serif;
+   font-size: 18px;
+   text-transform: uppercase;
+   color: black;
+}
+/* Trito Skill Ends Form Here  */
+
+
+/* Trito Counter Starts Form Here  */
+.trito-counter{
+    padding: 100px 0;
+}
+.trito-counter .counter__content .counter__item{
+    float: left;
+    width: 33.3%;
+    padding-right: 50px;
+}
+.trito-counter .counter__content .counter__item{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.trito-counter .counter__content .counter__item .item__number{
+    font-family: arial;
+    font-size: 60px;
+}
+.trito-counter .counter__content .counter__item .item__title{
+    font-family: arial;
+    font-size: 24px;
+}
+
+/* Trito Counter Ends Form Here  */
+/* Trito About Starts Form Here  */
+.trito-about2{
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+.trito-about2 .about__content2 .content__item .item__img{
+    text-align: center;
+}
+.trito-about2 .about__content2 .content__item .item__img img{
+    max-width: 550px;
+    max-height: 550px;
+}
+
+.trito-about2 .about__content2 .content__item .item__details{
+    padding: 60px 0;
+}
+.trito-about2 .about__content2 .content__item .item__details .sub-title{
+    font-family: arial;
+    font-size: 18px;
+    color: red;
+    padding: 0 20px;
+}
+.trito-about2 .about__content2 .content__item .item__details .title{
+    font-family: arial;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.trito-about2 .about__content2 .content__item .item__details .description{
+    font-family: arial;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 0;
+}
+.trito-about2 .about__content2 .content__item .item__details .button{
+    display: inline-block;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 16px 32px;
+    margin-top: 20px;
+    transition: all ease-in-out .3s;
+}
+.trito-about2 .about__content2 .content__item .item__details .button:hover{
+    background-color: White;
+    color: black;
+}
+/* Trito About Ends Form Here  */
+/* Trito Testimonial Starts Form Here  */
+
+/* Trito Testimonial Ends Form Here  */
+/* Trito Galerry Starts Form Here */
+.trito-galerry{
+    margin-top: 100px;
+    padding: 0 20px;
+}
+.trito-galerry .gallerry__item .item__img{
+    margin: 10px 0;
+    overflow: hidden;
+    width: 100%;
+    border: 3px solid black;
+    position: relative;
+}
+.trito-galerry .gallerry__item .item__img img{
+    width: 100%;
+    transition: all ease-in-out .5s;
+}
+.trito-galerry .gallerry__item .item__img img:hover{
+    transform: scale(1.1);
+
+}
+.trito-galerry .gallerry__item .item__img .item__title{
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    list-style: none;
+    border: 3px solid black;
+    border-right: none;
+    background-color: rgb(162, 153, 240);
+    visibility: hidden;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    transition: all ease-in-out 0s .3s;
+}
+.trito-galerry .gallerry__item .item__img .item__title li a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+
+}
+.trito-galerry .gallerry__item .item__img:hover .item__title{
+    visibility: visible;
+}
+
+/* Trito Galerry Ends Form Here */
+/* Trito Faq Starts Form Here  */
+.trito-faq{
+    padding: 100px 0;
+}
+.trito-faq .faq-content .faq-content-heading{
+   text-align: center;
+}
+.trito-faq .faq-content .faq-content-heading .heading__sub-title{
+   font-family: arial;
+   font-size: 18px;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: red;
+}
+.trito-faq .faq-content .faq-content-heading .heading__title{
+   font-family: arial;
+   font-size: 40px;
+   font-weight: bold;
+   width: 70%;
+   margin: 0 auto;
+   padding: 15px 0;
+}
+.trito-faq .faq-content .accordion .accordion-item{
+    margin: 15px 0;
+}
+.trito-faq .faq-content .accordion .accordion-item .accordion-header .accordion-button{
+    background-color: #24315E;
+    border: 1px solid black;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    font-family: arial;
+    padding: 25px 40px;
+    position: relative;
+}
+
+.trito-faq .faq-content .accordion .accordion-collapse .accordion-body{
+    background-color: rgb(173, 171, 171);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: arial;
+    padding: 10px 20px;
+}
+/* Trito Faq Ends Form Here  */
+/* Trito Freelancer Starts Form Here */
+.trito-freelancer{
+    background-image: url(../images/01.jpg);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    position: relative;
+}
+.trito-freelancer .freelancer__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.trito-freelancer .freelancer__content .freelancer__title{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+}
+.trito-freelancer .freelancer__content .freelancer__button{
+    display: inline-block;
+    font-family: arial;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.trito-freelancer .freelancer__content .freelancer__button:hover{
+    color: white;
+    background-color: black;
+}
+/* Trito Freelancer Ends Form Here */
+/* Trito Block Starts Form Here */
+.trito-blog{
+    margin-bottom: 100px;
+}
+.trito-blog .blog-content{
+
+}
+.trito-blog .blog-content .blog__heading .heading__sub-title{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: tomato;
+    padding-bottom: 10px;
+    position: relative;
+    padding-left: 40px;
+}
+.trito-blog .blog-content .blog__heading .heading__sub-title:after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: tomato;
+    top: 12px;
+    left: 95px;
+}
+.trito-blog .blog-content .blog__heading .heading__sub-title:before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: tomato;
+    top: 12px;
+    left: 0;
+}
+.trito-blog .blog-content .blog__heading .heading__title{
+    font-family: arial;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.trito-blog .blog-content .blog__item .item__list .item__details .title{
+    font-family: arial;
+    font-size: 30px;
+    margin-top: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(216, 213, 213);
+    line-height: 45px;
+    width: 90%;
+}
+.trito-blog .blog-content .blog__item .item__list .item__details .sub-title{
+    font-family: arial;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.trito-blog .blog-content .blog__item .item__list .item__img{
+    overflow: hidden;
+    border-radius: 28%;
+    border: 2px solid black;
+}
+.trito-blog .blog-content .blog__item .item__list .item__img img{
+    width: 100%;
+    height: auto;
+    transition: .6s;
+}
+.trito-blog .blog-content .blog__item .item__list .item__img img:hover{
+    transform: scale(1.1);
+}
+/* Trito Block Ends Form Here */
+/* Trito Contact Start Form Here */
+.trito-contact{
+    background-image: url(../images/contact-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+}
+.trito-contact .contact__content .contact__details{
+    color: white;
+}
+.trito-contact .contact__content .contact__details .contact__heading h4{
+    color: tomato;
+    padding: 0 0 10px 40px;
+    font-size: 28px;
+}
+.trito-contact .contact__content .contact__details .contact__heading h1{
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.trito-contact .contact__content .contact__details .contact__heading h3{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: rgb(163, 164, 165);
+}
+.trito-contact .contact__content .contact__details .contact__heading a{
+    display: inline-block;
+    font-size: 48px;
+    color: white; 
+    text-decoration: none;
+    border-bottom: 3px solid white;
+    line-height: 56px;
+    transition: all ease-in-out .3s;
+
+}
+.trito-contact .contact__content .contact__details .contact__heading a:hover{
+    border-bottom: 3px solid transparent;
+}
+.trito-contact .contact__content .contact__details .copyright{
+    background-color: rgba(255,255,255,.1);
+    width: 100%;
+    padding: 40px 60px;
+    margin-top: 162px;
+}
+.trito-contact .contact__content .contact__details .copyright .copyright__img img{
+    max-width: 200px;
+    max-height: 60px;
+}
+.trito-contact .contact__content .contact__details .copyright .copyright__title{
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.trito-contact .contact__content .contact__form{
+    background-color: white;
+}
+.trito-contact .contact__content .contact__form form{
+   padding: 70px 70px 40px;
+
+}
+.trito-contact .contact__content .contact__form form input{
+    font-family: arial;
+    font-size: 24px;
+    width: 100%;
+    padding: 20px 40px;
+    margin: 15px 0;
+    border: 2px solid black;
+    outline: 0;
+}
+.trito-contact .contact__content .contact__form form textarea{
+    font-family: arial;
+    font-size: 24px;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin: 15px 0;
+    border: 2px solid black;
+    outline: 0;
+    resize: none;
+}
+.trito-contact .contact__content .contact__form form button{
+    font-family: arial;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(9, 212, 9);
+    border: 2px solid black;
+    outline: 0;
+    transition: all ease-in-out .3s;
+}
+.trito-contact .contact__content .contact__form form button:hover{
+    background-color: black;
+    color: white;
+}
+.trito-contact .contact__content .contact__form .social-link{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.trito-contact .contact__content .contact__form .social-link ul li{
+    display: inline-block;
+    padding-right: 10px;
+
+}
+.trito-contact .contact__content .contact__form .social-link ul li a{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Trito Contact Start Form Here */
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
